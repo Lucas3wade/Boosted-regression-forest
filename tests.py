@@ -174,9 +174,9 @@ def test_default_values(entry_dataset, boosted, splitting_ratio):
 
 # reads our datasets and run all tests
 def main():
-    red_wine_file_path = 'winequality-red.csv'
+    red_wine_file_path = 'data/winequality-red.csv'
     red_dataset = pd.read_csv(red_wine_file_path, skiprows=1, sep=';', header=None)
-    white_wine_file_path = 'winequality-white.csv'
+    white_wine_file_path = 'data/winequality-white.csv'
     white_dataset = pd.read_csv(white_wine_file_path, skiprows=1, sep=';', header=None)
 
     print('Pramaeteres tests fo red wines')

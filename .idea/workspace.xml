@@ -115,7 +115,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.BoostedRegressionForest (1)">
+  <component name="RunManager" selected="Python.tests">
     <configuration name="BoostedRegressionForest (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BoostedRegressionForest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -265,8 +265,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.BoostedRegressionForest (1)" />
         <item itemvalue="Python.tests" />
+        <item itemvalue="Python.BoostedRegressionForest (1)" />
         <item itemvalue="Python.example" />
         <item itemvalue="Python.final" />
         <item itemvalue="Python.combo" />

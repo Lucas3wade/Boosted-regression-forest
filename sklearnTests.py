@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn import metrics
 import matplotlib.pyplot as plt
 
-dataset = pd.read_csv('winequality-red.csv', skiprows=1, sep=';', header=None)
+dataset = pd.read_csv('data/winequality-red.csv', skiprows=1, sep=';', header=None)
 X = dataset.iloc[:, 0:11].values
 y = dataset.iloc[:, 11].values
 rmse = []
@@ -36,7 +36,7 @@ print('Mean Mean Squared Error:', sum(mse)/len(mse))
 print('Mean Root Mean Squared Error:', sum(rmse)/len(mae))
 print('Mean Accuracy:', sum(accuracy)/len(accuracy))
 
-dataset = pd.read_csv('winequality-white.csv', skiprows=1, sep=';', header=None)
+dataset = pd.read_csv('data/winequality-white.csv', skiprows=1, sep=';', header=None)
 X = dataset.iloc[:, 0:11].values
 y = dataset.iloc[:, 11].values
 rmse = []

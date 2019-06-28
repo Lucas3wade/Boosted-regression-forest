@@ -187,9 +187,9 @@ def simple_run(entry_dataset, boosted, spliting_ratio):
 
 def main():
     # reading datasets
-    red_wine_file_path = 'winequality-red.csv'
+    red_wine_file_path = 'data/winequality-red.csv'
     red_dataset = pd.read_csv(red_wine_file_path, skiprows=1, sep=';', header=None)
-    white_wine_file_path = 'winequality-white.csv'
+    white_wine_file_path = 'data/winequality-white.csv'
     white_dataset = pd.read_csv(white_wine_file_path, skiprows=1, sep=';', header=None)
 
     # run all option, boosted or not with white and red wines datasets with default values in forest
