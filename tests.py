@@ -3,9 +3,9 @@ import numpy as np
 import time
 import matplotlib.pyplot as plt
 
-from BoostedRegressionForest import RandomForest
-from BoostedRegressionForest import mae
-from BoostedRegressionForest import mse
+from boosted_regression_forest import RandomForest
+from boosted_regression_forest import mae
+from boosted_regression_forest import mse
 
 
 # tests dependency between changing sample size and counted RMSE and accuracy
