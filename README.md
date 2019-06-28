@@ -1,4 +1,4 @@
-# BoostedRegressionForest
+# Boosted-regression-forest
 Own implementation of Regression Forest, tests, comparing to sklearn Regression Forest
 
 Boosted Random Regression Forest - My own implementation of generating random regression forest. You can use it in two ways. 
